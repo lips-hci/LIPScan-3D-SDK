@@ -5,3 +5,5 @@ Features
 - Enterprise-level 3D Modeling Solution
 - Build for developers & system integrator that want to add 3D scan function in their applications
 - Compatible with LIPSedge 3D cameras and Intel RealSense D400 series depth cameras
+
+See more successful cases on [LIPS website](https://www.lips-hci.com/lipscan-3d-scan-sdk).
