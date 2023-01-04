@@ -1,0 +1,6 @@
+{
+    "depth-stream-fps": "30",
+	"rgb-stream-fps": "15",
+    "stream-height": "800",
+    "stream-width": "1280"
+}
