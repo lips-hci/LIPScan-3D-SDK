@@ -1,0 +1,3 @@
+small S_VGA_disparityshift70.json
+medium M_VGA_disparityshift40.json
+large L_VGA_disparityshift10.json
