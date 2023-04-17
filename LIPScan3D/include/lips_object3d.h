@@ -73,6 +73,14 @@ namespace lips
 	// [out] y, duplicate of y component in vertex pointer.
 	// [out] z, duplicate of z component in vertex pointer.
 
+	extern "C" LIPSOBJ3D_API void SetPoint3fComp(Point3f*, int, float, float, float);
+	// Get duplicate of coordinate components in vertex structure.
+	// [in] pt3d, a valid vertex pointer get from GetVertexBuffer() and GetNormalBuffer() function.
+	// [in] pos, index of vertex pointer, a valid pos value is 0~vertex amount-1, vertex amount can get from ::GetVertexBuffer() function.
+	// [out] x, replacement of x component in vertex pointer.
+	// [out] y, replacement of y component in vertex pointer.
+	// [out] z, replacement of z component in vertex pointer.
+
 	extern "C" LIPSOBJ3D_API void SetColorRGBComp(ColorRGB*, int, unsigned char, unsigned char, unsigned char);
 	// Set red, green, blue components of mesh vertex color.
 	// [in] color, a valid pointer get from GetColorBuffer() function.
