@@ -24,7 +24,6 @@
 #include "algorithm.h"
 
 #ifdef LIPS_CLOUDCOMPARE
-//#include "liblipscan3d/lips_cloud_compare.h"
 #include "lips_cloud_compare.h"
 #endif
 
@@ -1722,7 +1721,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM	lParam)
 			//UserLang = GetUserDefaultUILanguage();
 			//std::cout << "GetUserDefaultUILanguage = " << UserLang << endl;
 
-			if (compare_mesh_tool.IsEanble())
+			if (compare_mesh_tool.IsEnable())
 				PopUpMenu_MeshComparison(hWnd, meshcomparer_status, compare_mesh_tool);
 			break;
 		default:

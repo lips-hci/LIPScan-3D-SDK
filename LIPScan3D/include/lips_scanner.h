@@ -119,7 +119,7 @@ namespace lips
 	//IntelRealsense_D435      Intel RealSense D435
 	//IntelRealsense_D435I     Intel RealSense D435I
 	//IntelRealsense_D455      Intel RealSense D455
-	//Himax_SH430              Himax SH430
+	//LIPS L210/215            LIPS L210
 
 	class LIPSCANNER_API ScannerProcess
 	{

@@ -58,7 +58,7 @@ namespace lips
 #pragma region Enable License
 	public:
 		bool Init(const char*);
-		bool IsEanble();
+		bool IsEnable();
 #pragma endregion
 #pragma region Load Mesh
 	public:
